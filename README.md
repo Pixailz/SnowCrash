@@ -2,6 +2,19 @@
 
 [ISO](https://cdn.intra.42.fr/isos/SnowCrash.iso)
 
+## Definition
+
+Through all levels we will use some terms that have special definition
+here's explanation:
+
+- **flagXX**: according to the subject, each level as to be validated by login
+  with the **flagXX** user. for example, level00 have to login as flag00
+
+- **DICTIONARY**: this file is a list of password / user:password to help us
+  with bruteforcing technics. for password a `rockyou.txt` is generally
+  sufficient. when not, a note will be displayed. for other type of DICTIONARY
+  a note will be displayed too
+
 ## Level
 
 1. [level00](https://github.com/Pixailz/SnowCrash/blob/main/level00/README.md)
