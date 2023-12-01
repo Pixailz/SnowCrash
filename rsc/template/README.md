@@ -1,6 +1,7 @@
 # LEVEL XX
 
-user:		levelXX
-password:	pass
+   > [!NOTE]
+   > user: `levelXX` <br>
+   > pass: `password`
 
 ## STEP 01
