@@ -5,7 +5,7 @@ password:	level00
 
 ## STEP 01
 
-Searching for file belonging to flag00
+Searching for files belonging to flag00
 
 ```
 level00@SnowCrash:~$ find / -user flag00 2>/dev/null
