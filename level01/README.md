@@ -83,4 +83,4 @@ hashcat -m 1500 hash DICTIONARY
 
 > [!IMPORTANT]
 > - `hashcat -m 1500 --show hash` to display the cracked **hash:password**
-> - the next password is `f2av5il02puano7naaf6adaaf`
+> - the password for the next level is `f2av5il02puano7naaf6adaaf`

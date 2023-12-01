@@ -18,4 +18,4 @@ sudo command
 > this is a note
 
 > [!IMPORTANT]
-> the next password is `nottoohardhere`
+> the password for the next level is `password`

@@ -28,4 +28,4 @@ give us the number of rotation operated on the string above, 11, which give us
 the password for **flag00**
 
 > [!IMPORTANT]
-> the next password is `nottoohardhere`
+> the password for the next level is `nottoohardhere`
