@@ -18,6 +18,7 @@ here's explanation:
 ## Level
 
 1. [level00](https://github.com/Pixailz/SnowCrash/blob/main/level00/README.md)
+1. [level01](https://github.com/Pixailz/SnowCrash/blob/main/level01/README.md)
 
 ## New beta markdown blockquote
 
