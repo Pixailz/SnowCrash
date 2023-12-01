@@ -22,8 +22,8 @@ ltrace ./level03
 ```
 
 > [!NOTE]
-> what's important here is that the binary launch an execve with no check for
-> the echo command
+> what's important here is that the binary launch an system function with an
+> no check for relative path for the echo command
 
 ## STEP 02
 
