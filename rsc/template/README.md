@@ -1,7 +1,21 @@
-# LEVEL XX
+# LEVEL 00
 
-   > [!NOTE]
-   > user: `levelXX` <br>
-   > pass: `password`
+> [!TIP]
+> user: `level00` <br>
+> pass: `level00`
 
 ## STEP 01
+
+the step 1
+
+```bash
+command
+#result command
+sudo command
+#result sudo command
+```
+> [!NOTE]
+> this is a note
+
+> [!IMPORTANT]
+> the next password is `nottoohardhere`

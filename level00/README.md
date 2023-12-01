@@ -1,22 +1,23 @@
 # LEVEL 00
 
-   > [!NOTE]
-   > user: `level00` <br>
-   > pass: `level00`
+> [!TIP]
+> user: `level00` <br>
+> pass: `level00`
 
 ## STEP 01
 
 Searching for files belonging to flag00
 
+```bash
+find / -user flag00 2>/dev/null
+#/usr/sbin/john
+#/rofs/usr/sbin/john
+cat /usr/sbin/john
+#cdiiddwpgswtgt
 ```
-level00@SnowCrash:~$ find / -user flag00 2>/dev/null
-/usr/sbin/john
-/rofs/usr/sbin/john
-level00@SnowCrash:~$ cat /usr/sbin/john
-cdiiddwpgswtgt
-```
-   > [!NOTE]
-   > `cdiiddwpgswtgt` seems to be a Rot13 like encoding
+
+> [!NOTE]
+> `cdiiddwpgswtgt` seems to be a Rot13 like encoding
 
 ## STEP 02
 
@@ -26,4 +27,5 @@ going to [here](https://gchq.github.io/CyberChef/#recipe=ROT13_Brute_Force(true,
 give us the number of rotation operated on the string above, 11, which give us
 the password for the `flag00` user
 
-> `nottoohardhere`
+> [!IMPORTANT]
+> the next password is `nottoohardhere`
