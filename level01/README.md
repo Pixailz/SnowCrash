@@ -67,7 +67,7 @@ cat /etc/passwd
 #flag14:x:3014:3014::/home/flag/flag14:/bin/bash
 ```
 
-> [!IMPORTANT]
+> [!WARNING]
 > According to this [answer](https://security.stackexchange.com/a/218866), the
 > mode for hashcat is `1500` **descrypt, DES (Unix), Traditional DES**
 
@@ -81,8 +81,6 @@ hashcat -m 1500 hash DICTIONARY
 #abcdefg
 ```
 
-> [!TIP]
-> `hashcat -m 1500 --show hash` to display the cracked **hash:password**
-
 > [!IMPORTANT]
-> the next password is `f2av5il02puano7naaf6adaaf`
+> - `hashcat -m 1500 --show hash` to display the cracked **hash:password**
+> - the next password is `f2av5il02puano7naaf6adaaf`
