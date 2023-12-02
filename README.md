@@ -27,6 +27,9 @@ here's explanation:
 1. [level03](https://github.com/Pixailz/SnowCrash/blob/main/level03/README.md)
 1. [level04](https://github.com/Pixailz/SnowCrash/blob/main/level04/README.md)
 1. [level05](https://github.com/Pixailz/SnowCrash/blob/main/level05/README.md)
+1. [level06](https://github.com/Pixailz/SnowCrash/blob/main/level06/README.md)
+1. [level07](https://github.com/Pixailz/SnowCrash/blob/main/level07/README.md)
+1. [level08](https://github.com/Pixailz/SnowCrash/blob/main/level08/README.md)
 
 ## New beta markdown blockquote
 
