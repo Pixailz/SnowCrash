@@ -11,7 +11,7 @@ As we log in, a message appear to us
 `You have new mail.`
 
 According to this [link](https://superuser.com/a/306180), email can be found at
-/var/mail/$USER
+**/var/mail/$USER**
 
 ## STEP 02
 
