@@ -21,15 +21,15 @@ here's explanation:
 
 ## Level
 
-1. [level00](https://github.com/Pixailz/SnowCrash/blob/main/level00/README.md)
-1. [level01](https://github.com/Pixailz/SnowCrash/blob/main/level01/README.md)
-1. [level02](https://github.com/Pixailz/SnowCrash/blob/main/level02/README.md)
-1. [level03](https://github.com/Pixailz/SnowCrash/blob/main/level03/README.md)
-1. [level04](https://github.com/Pixailz/SnowCrash/blob/main/level04/README.md)
-1. [level05](https://github.com/Pixailz/SnowCrash/blob/main/level05/README.md)
-1. [level06](https://github.com/Pixailz/SnowCrash/blob/main/level06/README.md)
-1. [level07](https://github.com/Pixailz/SnowCrash/blob/main/level07/README.md)
-1. [level08](https://github.com/Pixailz/SnowCrash/blob/main/level08/README.md)
+0. [level00](https://github.com/Pixailz/SnowCrash/blob/main/level00/README.md)
+0. [level01](https://github.com/Pixailz/SnowCrash/blob/main/level01/README.md)
+0. [level02](https://github.com/Pixailz/SnowCrash/blob/main/level02/README.md)
+0. [level03](https://github.com/Pixailz/SnowCrash/blob/main/level03/README.md)
+0. [level04](https://github.com/Pixailz/SnowCrash/blob/main/level04/README.md)
+0. [level05](https://github.com/Pixailz/SnowCrash/blob/main/level05/README.md)
+0. [level06](https://github.com/Pixailz/SnowCrash/blob/main/level06/README.md)
+0. [level07](https://github.com/Pixailz/SnowCrash/blob/main/level07/README.md)
+0. [level08](https://github.com/Pixailz/SnowCrash/blob/main/level08/README.md)
 
 ## New beta markdown blockquote
 
