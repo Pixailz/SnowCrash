@@ -67,10 +67,11 @@ cat /etc/passwd
 #flag14:x:3014:3014::/home/flag/flag14:/bin/bash
 ```
 
-> [!WARNING]
+> [!NOTE]
 > According to this [answer](https://security.stackexchange.com/a/218866), the
 > mode for hashcat is `1500` **descrypt, DES (Unix), Traditional DES**
 
+> [!TIP]
 > `grep "flag01" /etc/passwd | cut -d: -f2 > hash` to create the [hash](https://github.com/Pixailz/SnowCrash/blob/main/level01/resources/hash)
 
 ## STEP 02

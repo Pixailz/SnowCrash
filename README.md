@@ -10,6 +10,11 @@ here's explanation:
 - **flagXX**: according to the subject, each level as to be validated by login
   with the **flagXX** user. for example, level00 have to login as flag00
 
+- **ATTACKER**: it designat the Attacker
+
+- **TARGET**: it designate the SnowCrash address, it is therefore accessible from
+  the **ATTACKER**
+
 - **DICTIONARY**: this file is a list of password / user:password to help us
   with bruteforcing technics. for password a `rockyou.txt` is generally
   sufficient. when not, a note will be displayed. for other type of DICTIONARY

