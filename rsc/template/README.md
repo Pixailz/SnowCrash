@@ -14,6 +14,7 @@ command
 sudo command
 #result sudo command
 ```
+
 > [!NOTE]
 > this is a note
 

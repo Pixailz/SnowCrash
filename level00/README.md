@@ -25,7 +25,7 @@ Bruteforcing Rot13
 
 Going to [CyberChef](https://gchq.github.io/CyberChef/#recipe=ROT13_Brute_Force(true,true,false,100,0,true,'')&input=Y2RpaWRkd3Bnc3d0Z3Q)
 give us the number of rotation operated on the string above, 11, which give us
-the password for **flag00**
+the password `nottoohardhere`, needed to login as **flag00**
 
 > [!IMPORTANT]
-> the password for the next level is `nottoohardhere`
+> the password for the next level is `x24ti5gi3x0ol2eh4esiuxias`
