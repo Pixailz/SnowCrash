@@ -1,0 +1,13 @@
+file /bin/getflag
+set disassembly-flavor intel
+set $UID=3014
+set $ZF=6
+set $SF=7
+break *main+74
+break *main+444
+
+run
+set $eflags &= ~(1 << $SF)
+c
+set $eax=$UID
+c

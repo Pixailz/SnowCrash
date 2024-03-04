@@ -1,0 +1,6 @@
+file /home/user/level13/level13
+break *main+14
+
+run
+set $eax=4242
+c
