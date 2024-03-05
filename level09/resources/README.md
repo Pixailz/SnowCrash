@@ -1,9 +1,15 @@
+# LEVEL 09
+
+> [!TIP]
+> user: `level09` <br>
+> pass: `25749xKZ8L7DkSCwJkT9dyv6f`
+
 we have a token file with random characters
 we also have a binary file that we cannot reverse or [sl]trace
 
 when we give the binary file an argument, it outputs something that looks like it has been ciphered.
 
-giving it this output: 
+giving it this output:
 ```bash
 level09@SnowCrash:~$ printf "\x01%.0s" {0..255} | xxd
 0000000: 0101 0101 0101 0101 0101 0101 0101 0101  ................
@@ -22,14 +28,14 @@ level09@SnowCrash:~$ printf "\x01%.0s" {0..255} | xxd
 00000d0: 0101 0101 0101 0101 0101 0101 0101 0101  ................
 00000e0: 0101 0101 0101 0101 0101 0101 0101 0101  ................
 00000f0: 0101 0101 0101 0101 0101 0101 0101 0101  ................
-level09@SnowCrash:~$ 
+level09@SnowCrash:~$
 ```
 
 gives this result:
 ```bash
 level09@SnowCrash:~$ ./level09 "$(printf "\x01%.0s" {0..255} )" | xxd
 0000000: 0102 0304 0506 0708 090a 0b0c 0d0e 0f10  ................
-0000010: 1112 1314 1516 1718 191a 1b1c 1d1e 1f20  ............... 
+0000010: 1112 1314 1516 1718 191a 1b1c 1d1e 1f20  ...............
 0000020: 2122 2324 2526 2728 292a 2b2c 2d2e 2f30  !"#$%&'()*+,-./0
 0000030: 3132 3334 3536 3738 393a 3b3c 3d3e 3f40  123456789:;<=>?@
 0000040: 4142 4344 4546 4748 494a 4b4c 4d4e 4f50  ABCDEFGHIJKLMNOP
@@ -44,12 +50,12 @@ level09@SnowCrash:~$ ./level09 "$(printf "\x01%.0s" {0..255} )" | xxd
 00000d0: d1d2 d3d4 d5d6 d7d8 d9da dbdc ddde dfe0  ................
 00000e0: e1e2 e3e4 e5e6 e7e8 e9ea ebec edee eff0  ................
 00000f0: f1f2 f3f4 f5f6 f7f8 f9fa fbfc fdfe ff00  ................
-level09@SnowCrash:~$ 
+level09@SnowCrash:~$
 ```
 
 from this, we can simply see the cipher and encryption used : take the current byte `str[i]` and add its index to itself like that `str[i] += i`
 we then extract the given token file, our ciphertext, and apply our algorithm to it
-with a quick python2 script, this is the result: 
+with a quick python2 script, this is the result:
 ```py
 cipher = "66 34 6b 6d 6d 36 70 7c 3d 82 7f 70 82 6e 83 82 44 42 83 44 75 7b 7f 8c 89 0a"
 bytes = []
@@ -75,5 +81,5 @@ Password: f3iji1ju5yuevaus41q1afiuq
 Don't forget to launch getflag !
 flag09@SnowCrash:~$ getflag
 Check flag.Here is your token : s5cAJpM8ev6XHw998pRWG728z
-flag09@SnowCrash:~$ 
+flag09@SnowCrash:~$
 ```
